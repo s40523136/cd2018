@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://s40523136.github.io/cd2018">
-  <title>Tag: python | 2018CD G6</title>
+  <title>利用hexo建立小組倉儲 | 2018CD G6</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="2018CD G6">
-<meta property="og:url" content="https://s40523136.github.io/cd2018/tags/python/index.html">
+  <meta name="description" content="這週我們利用 node.js 所集成的網誌框架系統 hexo ，紀錄本學期課程的學習歷程記錄，網誌框架支援 Markdown 編寫文章。 以下是我們進行小組網誌創建的步驟:">
+<meta name="keywords" content="blog">
+<meta property="og:type" content="article">
+<meta property="og:title" content="利用hexo建立小組倉儲">
+<meta property="og:url" content="https://s40523136.github.io/cd2018/2018/03/08/w2/index.html">
 <meta property="og:site_name" content="2018CD G6">
+<meta property="og:description" content="這週我們利用 node.js 所集成的網誌框架系統 hexo ，紀錄本學期課程的學習歷程記錄，網誌框架支援 Markdown 編寫文章。 以下是我們進行小組網誌創建的步驟:">
+<meta property="og:updated_time" content="2018-03-08T07:07:25.550Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="2018CD G6">
+<meta name="twitter:title" content="利用hexo建立小組倉儲">
+<meta name="twitter:description" content="這週我們利用 node.js 所集成的網誌框架系統 hexo ，紀錄本學期課程的學習歷程記錄，網誌框架支援 Markdown 編寫文章。 以下是我們進行小組網誌創建的步驟:">
   
     <link rel="alternative" href="/atom.xml" title="2018CD G6" type="application/atom+xml">
   
@@ -131,60 +136,190 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-w2" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/cd2018/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/cd2018/2018/03/07/w1/" class="archive-article-date">
-  	<time datetime="2018-03-07T11:45:01.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-07</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/cd2018/2018/03/07/w1/">利用python進行座位分組</a>
+    <h1 class="article-title" itemprop="name">
+      利用hexo建立小組倉儲
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/cd2018/2018/03/08/w2/" class="archive-article-date">
+  	<time datetime="2018-03-08T05:10:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-08</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>這週我們利用 node.js 所集成的網誌框架系統 hexo ，紀錄本學期課程的學習歷程記錄，網誌框架支援 Markdown 編寫文章。</p>
+<p>以下是我們進行小組網誌創建的步驟:<br><a id="more"></a><br>一、首先我們需要先下載並安裝 </p>
+<p>1、<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">Git</a></p>
+<p>2、<a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></p>
+<p>3、<a href="https://code.visualstudio.com/docs?start=true" target="_blank" rel="noopener">Visual Studio Code</a></p>
+<p>安裝好後於cmd下透過npm安裝hexo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<p>完成以上步驟後可於 cmd 輸入 hexo s  開啟伺服器查案預設網誌</p>
+<p>二、Blog建立與管理</p>
+<p>1、選擇小組Blog主題可於  <a href="https://hexo.io/themes/" target="_blank" rel="noopener">官網</a>  上做選擇</p>
+<p>2、套用選擇主題</p>
+<p>利用VSC開啟 Documents\blog 下的_config.yml檔</p>
+<p>尋找下列幾項進行設定及更改</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># Site</span></span><br><span class="line">title: 2018CD G6  #網頁名稱</span><br><span class="line">subtitle:</span><br><span class="line">description:</span><br><span class="line">author: 四設二甲 第六組 #作者</span><br><span class="line">language:</span><br><span class="line">timezone:</span><br><span class="line"></span><br><span class="line"> theme: &lt;文件夾名稱&gt; #這邊原本後面是預設主題可改為自選主題</span><br><span class="line"></span><br><span class="line"><span class="section"># URL</span></span><br><span class="line"><span class="section">## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'</span></span><br><span class="line">url: https://s40523136.github.io/cd2018/</span><br><span class="line">root: /cd2018/</span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">permalink_defaults:</span><br><span class="line"></span><br><span class="line"><span class="section"># Deployment</span></span><br><span class="line"><span class="section">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/s40523136/cd2018</span><br><span class="line">  branch: gh-pages</span><br><span class="line">  message: 'blog update'</span><br></pre></td></tr></table></figure>
+<p>主題修改可於Documents\blog\tmemes\文件夾  內開啟  _config.yml  進行修改</p>
+<p>3、建立blog </p>
+<p>於 cmd 輸入 hexo new &lt;名稱&gt;   </p>
+<p>blog產生位置為Documents\blog\source_posts\名稱</p>
+<p>編寫文章方式與之前blog一樣為 Markdown </p>
+<p>4、Blog回推github</p>
+<p>前面已經設定好回推路徑這邊直接於cmd下輸入 hexo d 就可進行回推</p>
+<p>5、hexo 常用指令整理</p>
+<p>目前會比較常用的指令整理如下 相關完整指令於 <a href="https://hexo.io/docs/commands.html" target="_blank" rel="noopener">官網</a> 查詢</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">hexo s #於近端開啟伺服器</span><br><span class="line"></span><br><span class="line">hexo n #建立新的blog</span><br><span class="line"></span><br><span class="line">hexo g #產生blog</span><br><span class="line"></span><br><span class="line">hexo d #回推</span><br><span class="line"></span><br><span class="line">hexo clean #清除</span><br></pre></td></tr></table></figure>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>按讚分享抽iphone<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">blog</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=https://s40523136.github.io/cd2018/2018/03/08/w2/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
   
   
-    </div></section>
+    <a href="/cd2018/2018/03/07/w1/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">利用python進行座位分組</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+
+  
+
+  
 
 
           </div>
@@ -207,9 +342,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
