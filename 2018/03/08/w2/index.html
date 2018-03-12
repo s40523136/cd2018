@@ -15,7 +15,7 @@
 <meta property="og:url" content="https://s40523136.github.io/cd2018/2018/03/08/w2/index.html">
 <meta property="og:site_name" content="2018CD G6">
 <meta property="og:description" content="這週我們利用 node.js 所集成的網誌框架系統 hexo ，紀錄本學期課程的學習歷程記錄，網誌框架支援 Markdown 編寫文章。 以下是我們進行小組網誌創建的步驟:">
-<meta property="og:updated_time" content="2018-03-08T07:07:25.550Z">
+<meta property="og:updated_time" content="2018-03-12T12:50:54.579Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用hexo建立小組倉儲">
 <meta name="twitter:description" content="這週我們利用 node.js 所集成的網誌框架系統 hexo ，紀錄本學期課程的學習歷程記錄，網誌框架支援 Markdown 編寫文章。 以下是我們進行小組網誌創建的步驟:">
@@ -163,13 +163,17 @@
 <p>3、<a href="https://code.visualstudio.com/docs?start=true" target="_blank" rel="noopener">Visual Studio Code</a></p>
 <p>安裝好後於cmd下透過npm安裝hexo</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-<p>完成以上步驟後可於 cmd 輸入 hexo s  開啟伺服器查案預設網誌</p>
+<p>完成以上步驟後可於 cmd 輸入 hexo s  開啟伺服器查看預設網誌</p>
 <p>二、Blog建立與管理</p>
 <p>1、選擇小組Blog主題可於  <a href="https://hexo.io/themes/" target="_blank" rel="noopener">官網</a>  上做選擇</p>
 <p>2、套用選擇主題</p>
 <p>利用VSC開啟 Documents\blog 下的_config.yml檔</p>
 <p>尋找下列幾項進行設定及更改</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># Site</span></span><br><span class="line">title: 2018CD G6  #網頁名稱</span><br><span class="line">subtitle:</span><br><span class="line">description:</span><br><span class="line">author: 四設二甲 第六組 #作者</span><br><span class="line">language:</span><br><span class="line">timezone:</span><br><span class="line"></span><br><span class="line"> theme: &lt;文件夾名稱&gt; #這邊原本後面是預設主題可改為自選主題</span><br><span class="line"></span><br><span class="line"><span class="section"># URL</span></span><br><span class="line"><span class="section">## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'</span></span><br><span class="line">url: https://s40523136.github.io/cd2018/</span><br><span class="line">root: /cd2018/</span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">permalink_defaults:</span><br><span class="line"></span><br><span class="line"><span class="section"># Deployment</span></span><br><span class="line"><span class="section">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/s40523136/cd2018</span><br><span class="line">  branch: gh-pages</span><br><span class="line">  message: 'blog update'</span><br></pre></td></tr></table></figure>
+<p>這邊是更改網頁標題的地方</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: 2018CD G6  #網頁名稱</span><br><span class="line">subtitle:</span><br><span class="line">description:</span><br><span class="line">author: 四設二甲 第六組 #作者</span><br><span class="line">language:</span><br><span class="line">timezone:</span><br></pre></td></tr></table></figure>
+<p>這邊原本會是選擇預設資料夾就直接改成自己下載的主題<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: &lt;文件夾名稱&gt; #這邊原本後面是預設主題可改為自選主題</span><br></pre></td></tr></table></figure></p>
+<p>這邊是跟改網誌的網址<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># URL</span><br><span class="line">## If your site is put in a subdirectory, set url as &apos;http://yoursite.com/child&apos; and root as &apos;/child/&apos;</span><br><span class="line">url: https://s40523136.github.io/cd2018/</span><br><span class="line">root: /cd2018/</span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">permalink_defaults:</span><br></pre></td></tr></table></figure></p>
+<p>這邊是設定回推網誌的路徑<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/s40523136/cd2018</span><br><span class="line">  branch: gh-pages</span><br><span class="line">  message: &apos;blog update&apos;</span><br></pre></td></tr></table></figure></p>
 <p>主題修改可於Documents\blog\tmemes\文件夾  內開啟  _config.yml  進行修改</p>
 <p>3、建立blog </p>
 <p>於 cmd 輸入 hexo new &lt;名稱&gt;   </p>
@@ -412,11 +416,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">blog</a>
+                <a href="javascript:void(0)" class="js-tag color2">python</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">python</a>
+                <a href="javascript:void(0)" class="js-tag color5">blog</a>
               </li>
             
             <div class="clearfix"></div>
