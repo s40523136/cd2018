@@ -1,2 +1,15 @@
-小組BLOG : [cd2018_g6](https://s40523136.github.io/cd2018/index.html)<br/>
-小期中報告 : [gitbook](https://legacy.gitbook.com/book/s40523136/g6-gitbook/details)
+# 協同產品設計實習-Group6
+
+## 組員:
+
+## 40523101
+
+## 40523122
+
+## 40523132
+
+## 40523136
+ ![](/assets/109201845.jpg)
+
+
+
