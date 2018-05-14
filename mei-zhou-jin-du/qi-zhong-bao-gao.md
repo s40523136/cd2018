@@ -1,16 +1,18 @@
+# 期中報告
+
 ## V-rep模擬分析
 
 ### 1.V-rep模擬最低點的時候
 
-![](/assets/最低點.png)
+![](../.gitbook/assets/zui-di-dian.png)
 
 ### 2.V-rep模擬最高點的時候:
 
-![](/assets/最高點.png)
+![](../.gitbook/assets/zui-gao-dian.png)
 
 ### 3.slovespave模擬位移高度:
 
-![](/assets/slovespace模擬位移.png)
+![](../.gitbook/assets/slovespace-mo-ni-wei-yi.png)
 
 ### 4.球的速率分析\(lim 球-&gt;勺子\):
 
@@ -25,6 +27,7 @@
 ### 5.模擬此機構循環一次約為6秒，所以我們希望抬球臂可以在球循環一次後回到原點接到球。
 
 ![Alt Text](https://i.imgur.com/Zw87bn8.gif)
+
 ### ttt 檔案連結 : [V-rep 機構模擬檔](https://github.com/s40523136/cd2018/blob/master/vrep/666.ttt)
 
 ### 6.鋼球運動系統所需工具及材料表:
@@ -47,8 +50,8 @@
 
 ### 7.零件工程圖:
 
-![](/assets/Image_123b597.jpg)  
-![](/assets/Image_f606782.jpg)
+![](../.gitbook/assets/image_123b597.jpg)  
+![](../.gitbook/assets/image_f606782.jpg)
 
 ### 8.抬球機構相關零件檔案:[零件檔案](https://github.com/s40523101/cd2018/blob/master/電腦輔助設計/)　（２０１５ｉｎｖｅｒｔｏｒ）
 
@@ -65,6 +68,4 @@
 ## 40523132: 80
 
 ## 40523136: 80
-
-
 

@@ -1,6 +1,6 @@
-# 參考機構\(一\) {#cd9}
+# 機構\(一\)
 
-### 摘要
+## 摘要
 
 報告動機：
 
@@ -22,8 +22,6 @@ BOX2【23\*18\*19\(cm\)】的箱子中。
 
 提球機構、Onshape、V-rep
 
-### 
-
 第一章 前言
 
 經過小組成員的討論後，先決定做出共用的提球機構，
@@ -40,7 +38,7 @@ BOX2【23\*18\*19\(cm\)】的箱子中。
 
 組員上傳後的負責項目。
 
-![](/assets/1import.png)
+![](../.gitbook/assets/1import.png)
 
 第二章 機構介紹
 
@@ -48,35 +46,35 @@ BOX2【23\*18\*19\(cm\)】的箱子中。
 
 機構必須要能放入郵局BOX2的紙箱中【23\*18\*19\(cm\)】，鋼球大小直徑為9mm，並且參考老師提供的影片，組員之間互相討論，選擇一組機構當作參考，組員之間開始分工。
 
-![](/assets/2import.png)
+![](../.gitbook/assets/2import.png)
 
 圖2-1 參考影片 提球
 
-![](/assets/3import.png)
+![](../.gitbook/assets/3import.png)
 
 圖2-2 參考影片 放球
 
 在solvespace中繪製四連桿機構，並且模擬轉動情形
 
-![](/assets/5import.png)
+![](../.gitbook/assets/5import.png)
 
 圖2-3 solvespace 模擬1
 
-![](/assets/6import.png)
+![](../.gitbook/assets/6import.png)
 
 圖2-4 solvespace 模擬2
 
-![](/assets/7import.png)
+![](../.gitbook/assets/7import.png)
 
 圖2-5 solvespace 模擬3
 
 在擋球端的部份，我們採用槓桿原理的方式來製作，使其在不受任何外力作用下，重端會輕觸於底板，輕端則會懸浮於空中並且擋住出球口，但在抬球臂放下時將輕端往下壓，重端會往上抬，做到槓桿原理，使球可以自然滾出到抬球臂上的凹槽，完成抬球運動。
 
-![](/assets/8import.png)
+![](../.gitbook/assets/8import.png)
 
 圖2-6 擋球槓桿模擬-1
 
-![](/assets/9import.png)
+![](../.gitbook/assets/9import.png)
 
 圖2-7 擋球槓桿模擬-2
 
@@ -84,15 +82,15 @@ BOX2【23\*18\*19\(cm\)】的箱子中。
 
 在V-rep中模擬，有時會遇到在斜面中，但是球卻往返方向滾動，或者球在原地，而不是往低處滾動，導致模擬出現問題，及抬球臂無法預期的將球送至上軌道，而是把球拍走或是在空中滑落，造成模擬時出現無法預期的結果。
 
-![](/assets/10import.png)
+![](../.gitbook/assets/10import.png)
 
 圖2-12 上軌道斜面
 
-![](/assets/13import.png)
+![](../.gitbook/assets/13import.png)
 
 圖2-13 inventor 模擬馬達轉動1
 
-![](/assets/14import.png)
+![](../.gitbook/assets/14import.png)
 
 圖2-14 inventor 模擬馬達轉動2
 
@@ -100,13 +98,13 @@ BOX2【23\*18\*19\(cm\)】的箱子中。
 
 | 主機構零件表 |  |
 | :---: | :---: |
-| 底板 | ![](/assets/15import.png) |
-| 抬球臂 | ![](/assets/17import.png) |
-| 槓桿 | ![](/assets/18import.png) |
-| 連桿一 | ![](/assets/19import.png) |
-| 連桿二 | ![](/assets/20import.png) |
+| 底板 | ![](../.gitbook/assets/15import.png) |
+| 抬球臂 | ![](../.gitbook/assets/17import.png) |
+| 槓桿 | ![](../.gitbook/assets/18import.png) |
+| 連桿一 | ![](../.gitbook/assets/19import.png) |
+| 連桿二 | ![](../.gitbook/assets/20import.png) |
 
-![](/assets/21import.png)
+![](../.gitbook/assets/21import.png)
 
 圖2-11組合完成圖
 
@@ -116,15 +114,15 @@ BOX2【23\*18\*19\(cm\)】的箱子中。
 
 實際做動影片：[https://www.youtube.com/watch?v=VuySdgoiAL8](https://www.youtube.com/watch?v=VuySdgoiAL8)
 
-![](/assets/22import.png)
+![](../.gitbook/assets/22import.png)
 
 圖2-19 教授參與實際組裝與討論
 
 | 圖2-20焊接軌道 | 2-21微調軌道位子 |
 | :--- | :--- |
-| ![](/assets/23import.png) | ![](/assets/24import.png) |
+| ![](../.gitbook/assets/23import.png) | ![](../.gitbook/assets/24import.png) |
 | 圖2-23修剪軌道毛邊處 | 圖2-24完成 |
-| ![](/assets/25import.png) | ![](/assets/26import.png) |
+| ![](../.gitbook/assets/25import.png) | ![](../.gitbook/assets/26import.png) |
 
 設計後的機-構大小為20\*15\*6.5\(CM\)，合乎郵局BOX2的大小規範。
 
@@ -134,7 +132,7 @@ BOX2【23\*18\*19\(cm\)】的箱子中。
 
 組員有設計出屬於自己的軌道，及完成自己的影片。
 
-### **測量出本組完成一個循環為6秒**
+## **測量出本組完成一個循環為6秒**
 
 討論與建議
 
