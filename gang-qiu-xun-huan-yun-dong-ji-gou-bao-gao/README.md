@@ -26,6 +26,8 @@
 
 ![](../.gitbook/assets/image_123b597.jpg)![](../.gitbook/assets/image_f606782.jpg)
 
+### 面臨問題與考量
+
 由於機構\(一\)面臨出現了很多一開始沒預想到的問題於是我們決定重新設計機構\(一\)
 
 基於以下是我們發現的問題點:
@@ -40,7 +42,11 @@
 
 我們利用機構\(一\)的概念從新製作了新抬球機構克服了先前機構所面臨的問題，我們一樣採用原設計的四連趕機構，但我們軌道部分採用組裝式，在底板上預留定位孔降低裝配上的人為誤差，軌道部分加大了傾斜角度以及讓軌道尺寸加入公差，捨棄原本的擋球機構並以計算鋼球運行週期，調配伺服馬達旋轉速率來達到減少電力以及磨耗損失，相較上一代的設計大幅減少製作上的困難，並且排除了很多模擬上出現的干涉問題以下是新版抬球機構的詳細介紹:
 
-## 機構影片
+### 機構影片
+
+{% embed data="{\"url\":\"https://www.youtube.com/watch?v=KgNo0L2eB7U\",\"type\":\"video\",\"title\":\"鋼球循環運動機構\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/KgNo0L2eB7U/maxresdefault.jpg\",\"width\":1280,\"height\":720,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/KgNo0L2eB7U?rel=0&showinfo=0\",\"html\":\"<div style=\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\"><iframe src=\\"https://www.youtube.com/embed/KgNo0L2eB7U?rel=0&amp;showinfo=0\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen scrolling=\\"no\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
+
+
 
 
 
