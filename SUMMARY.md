@@ -17,5 +17,4 @@
     * [40523132](mei-zhou-jin-du/11w-sui-tang-ce-yan/40523132.md)
     * [40523136](mei-zhou-jin-du/11w-sui-tang-ce-yan/40523136.md)
     * [12W](mei-zhou-jin-du/11w-sui-tang-ce-yan/12w.md)
-* [12w](12w.md)
 
